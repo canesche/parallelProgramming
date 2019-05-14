@@ -1,5 +1,5 @@
 all:
-	g++ -o hello hello.cpp -fopenmp
+	g++ -o hello.out hello.cpp -fopenmp
 
 clean:
-	rm hello
+	rm hello.out
